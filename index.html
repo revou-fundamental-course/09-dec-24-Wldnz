@@ -26,55 +26,91 @@
         </div>
         
         <div class="content">
+
           <aside class="left">
-            <img src="./img/1.png" alt="abc">
-            <img src="./img/2.png" alt="abc">
-            <p>"Travel Lebih menyenangkan jika menggunakan travel ini!"</p>
+
+            <div class="preview-img">
+              <div class="content-img">
+                <img src="./img/1.png" alt="abc">
+                <img src="./img/2.png" alt="abc">
+                <img src="./img/3.png" alt="abc">
+                <img src="./img/4.png" alt="abc">
+              </div>
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            </div>
+
+            <p>"Liburan Lebih menyenangkan jika menggunakan travel agentku!."</p>
             <div class="profile-box">
+
               <img src="./img/smile.png" alt="profile">
               <div class="status">
-                <p>Wildan Izhar A</p>
-                <p>wildan,16</p>
+                <b>Wildan Izhar A</b>
+                <p>wldnz, 16y</p>
               </div>
             </div>
             </aside>
-          <aside class="left">
-            <form action="#" method="GET"> 
-              <h3>Contact us</h3>
+
+          <aside class="right">
+            <form action="#" method="GET" id="contact-me"> 
+              <div class="headerForm">
+                <h3>Contact us</h3>
                 <p>
                   Sales akan menghubungi Anda 1x24 jam setelah data kami terima
-              </p>
-              <div class="formfield">
-                <label for="username">
-                  Your Name :   
-                </label>
-                <input type="text" id="user" placeholder="First & Last Name">
+                </p>
               </div>
+
+              <div class="formfield">
+                <label for="name">
+                  Name :   
+                </label>
+                <input type="text" id="name" placeholder="First & Last Name">
+              </div>
+
                <div class="formfield">
                 <label for="email">
-                  Your Name :   
+                  Email address :   
                 </label>
                 <input type="email" id="email" placeholder="example@gmail.com">
               </div>
-              <div class="formfield">
+
+              <div class="selectField">
                 <label for="email">
-                  Your Name :   
+                  What Are you interested in? :   
                 </label>
+
                <select name="" id="">
+                 <option value="none"></option>
                  <option value="a">a</option>
                  <option value="b">b</option>
                </select>
               </div>
-              <button type="submit">SEND</button>
+
+              <button type="submit" onclick="">SEND</button>
+
             </form>
           </aside>
         </div>
+
+        <footer>
+
+         <div class="information">
+            <b>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</b>
+            <ol>
+                <li>Your First Feature, written in the form of a beneift statement</li>
+                <li>Your Second Feature, written in the form of a beneift statement</li>
+                <li>Your Third Feature, written in the form of a beneift statement</li>
+            </ol>
+         </div>
+        
+        </footer>
+
       </main>
-      <footer>
-        <b>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</b>
-        <ul type="square">
-            <li>Your First Feature, written in the form of a beneift statement</li>
-        </ul>
-      </footer>
+      <p style="margin: 10px 0; width: 100%; text-align: center;">&copy; github.com/Wldnz 2024</p>
+      <script src="./js/script.js"></script>
 </body>
 </html>
