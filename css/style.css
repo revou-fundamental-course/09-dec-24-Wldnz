@@ -5,11 +5,13 @@
 }
 
 body{
-    min-width: 526px;
+    min-width: 320px;
 }
 
 header{
 
+    z-index: 999;
+    background-color: white;
 }
 
 nav{
@@ -108,6 +110,10 @@ main > .content{
 .dot:not(:first-child){
     background-color: rgba(255,255,255, .4);
     
+}
+
+.content-img,.preview-img{
+    max-width: 600px;
 }
 
 .content-img > img{
@@ -273,12 +279,24 @@ footer{
 
 
 /* lolololol!!!!!!, i forgot put the px  */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 875px) {
+
+    header{
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
     main > .content{
         flex-direction: column;
         align-items: center;
         gap : 20px;
     }
+
+    .content-img > img{
+        width: 100%;
+        /* height: ; */
+    }
+
     .right{
         width: 300px;
         padding-bottom: 20px;
@@ -290,3 +308,4 @@ footer{
     }
 
 }
+

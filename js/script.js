@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded",() => {
         })
 
         alert("Please Check Your Email 1x24hours, (See Your Data in console)")
+        location.reload();
     })
 
     Array.from(document.querySelector(".dots").children).forEach((element,index) => {
